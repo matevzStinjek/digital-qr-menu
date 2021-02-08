@@ -1,0 +1,8 @@
+{
+    "tabs": [
+        { "id": "menu",     "route": "/"         },
+        { "id": "wishlist", "route": "/wishlist" },
+        { "id": "feedback", "route": "/feedback" },
+        { "id": "info",     "route": "/info"     }
+    ]
+}

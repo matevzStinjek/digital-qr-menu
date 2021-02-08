@@ -1,0 +1,1236 @@
+{
+    "restaurant": {
+        "id": 1,
+        "name": "Stari pisker",
+        "image": "https://image.freepik.com/free-photo/raw-sirloin-steak-frying-pan-beef-meat-top-view-copyspace-background_89816-4727.jpg",
+        "description": "Vizija te gostilne je v bistvu zelo enostavna in konkretna. Glasi, da je potrebno pripravljati slastno, kvalitetno in izvirno hrano ter nuditi kar najbolj skladne napitke oz. pijače.\n\nNa krožnikih ohranjati preprosto prepoznavnost jedi in zagotavljati vedno boljše nadgradnje osnovnih in naravnih okusov, spomniti se na znanja naših prababic in na zanimivosti sodobnih kulinaričnih trendov, ne oziraje se na geografske izvore.",
+        "menus": [
+            {
+                "id": 1,
+                "name": "A La carte",
+                "description": "Ponos naših kuhinj",
+                "type": "standard",
+                "content": [
+                    {
+                        "id": 1,
+                        "icon": "breakfast",
+                        "categories": [
+                            {
+                                "id": 1,
+                                "name": "Zajtrk prvakov",
+                                "description": "za dober začetek dneva",
+                                "icon": "breakfast",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Croissant",
+                                        "price": "1.50",
+                                        "description": null
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Toast klasičen",
+                                        "price": "2.20",
+                                        "description": "margarina, šunka, sir"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Toast tunin",
+                                        "price": "2.50",
+                                        "description": "tunin namaz s koruzo, rukola"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Toast vege",
+                                        "price": "2.70",
+                                        "description": "popečene bučke in jajčevci, mozzarella, olivno olje"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Jajčka na različne načine",
+                                        "price": "2.90",
+                                        "description": "pečena, umešana, na olivnem olju, na ocvirkih"
+                                    },
+                                    {
+                                        "id": 6,
+                                        "name": "Šunka in jajce",
+                                        "price": "3.50",
+                                        "description": "rezine šunke, 2 jajci"
+                                    },
+                                    {
+                                        "id": 7,
+                                        "name": "Zajtrk 3eh namazov",
+                                        "price": "2.90",
+                                        "description": "maslo, marmelada, med, popečeni toast 3 kos"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "icon": "pizza",
+                        "categories": [
+                            {
+                                "id": 2,
+                                "name": "Pizze",
+                                "description": "pravijo, da izvirajo od naših sosedov...",
+                                "icon": "pizza",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Marinara",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "6.00"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "7.20"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "14.40"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka",
+                                            "origano",
+                                            "česen",
+                                            "sir"
+                                        ]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Capricciosa",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "6.35"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "7.45"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "14.90"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka",
+                                            "mozzarella",
+                                            "olive",
+                                            "kuhan pršut (brez polifosfatov)",
+                                            "gobe",
+                                            "artičoke"
+                                        ]
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Quattro Formaggi",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "6.90"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "8.10"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "16.20"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka",
+                                            "mozzarella",
+                                            "olive",
+                                            "sir (ementalec)",
+                                            "sir (Fontina P.D.O. - Valle D'Aosta)",
+                                            "gorgonzola (blaga P.D.O.)"
+                                        ]
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Bufalina",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "6.90"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "8.10"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "16.20"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka",
+                                            "mozzarella (Bivolja P.D.O.",
+                                            "češnjevci",
+                                            "bazilika"
+                                        ]
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Romana",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "6.90"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "8.10"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "16.20"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka",
+                                            "mozzarella",
+                                            "inčuni (v olivnem olju z origanom)"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 2,
+                                "name": "Posebne pizze",
+                                "icon": "pizza",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Lei",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "7.20"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "8.45"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "15.90"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka (iz češnjevih paradižnikov)",
+                                            "mozzarella",
+                                            "čebula",
+                                            "pikantna salama",
+                                            "jajce (nduja), speck (dimljen italjanski pršut)"
+                                        ]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Elegante",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "8.00"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "8.90"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "17.80"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka (iz češnjevih paradižnikov)",
+                                            "mozzarella",
+                                            "čebula",
+                                            "pikantna salama",
+                                            "jajce (nduja)",
+                                            "speck (dimljen italjanski pršut)"
+                                        ]
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Lady",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "8.10"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "9.10"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "18.20"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka",
+                                            "mozzarella",
+                                            "kozice",
+                                            "paradižnik (rezine)",
+                                            "koktejl omaka"
+                                        ]
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Regina",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "8.10"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "9.10"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "18.20"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka",
+                                            "štorovke",
+                                            "gorgonzola",
+                                            "sir (Grana Padano P.D.O.)",
+                                            "rukola"
+                                        ]
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Nadia",
+                                        "variations": [
+                                            {
+                                                "variation": "M",
+                                                "price": "8.10"
+                                            },
+                                            {
+                                                "variation": "V",
+                                                "price": "9.10"
+                                            },
+                                            {
+                                                "variation": "D",
+                                                "price": "18.20"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "Paradižnikova omaka",
+                                            "mozzarella",
+                                            "gorgonzola",
+                                            "orehi",
+                                            "dimljen pršut (speck italjanski)"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "icon": "burger",
+                        "categories": [
+                            {
+                                "id": 1,
+                                "name": "Gurmanski burgerji",
+                                "description": "Fajn sočno",
+                                "icon": "burger",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Classic Burger",
+                                        "variations": [
+                                            {
+                                                "variation": "Enojni",
+                                                "price": "6.00"
+                                            },
+                                            {
+                                                "variation": "Dvojni",
+                                                "price": "7.20"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "štručka s sezamom",
+                                            "goveja polpeta",
+                                            "slanina",
+                                            "čedar sir",
+                                            "čebula",
+                                            "paradižnik",
+                                            "kumarica"
+                                        ]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Pujs Burger",
+                                        "variations": [
+                                            {
+                                                "variation": "Enojni",
+                                                "price": "6.35"
+                                            },
+                                            {
+                                                "variation": "Dvojni",
+                                                "price": "7.45"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "štručka s sezamom",
+                                            "svinjska polpeta",
+                                            "slanina",
+                                            "čedar sir",
+                                            "zelena solata",
+                                            "svinjska reberca (natrgana)",
+                                            "BBQ omaka",
+                                            "jabolčna gorčica"
+                                        ]
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Burger Šampi(n)jonov",
+                                        "variations": [
+                                            {
+                                                "variation": "Enojni",
+                                                "price": "6.90"
+                                            },
+                                            {
+                                                "variation": "Dvojni",
+                                                "price": "8.20"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "črna štručka s sezamom",
+                                            "goveja  polpeta",
+                                            "šampinjoni",
+                                            "sveža spinača",
+                                            "paradižnik",
+                                            "ocvrta burata"
+                                        ]
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Pišek Burger",
+                                        "variations": [
+                                            {
+                                                "variation": "Enojni",
+                                                "price": "6.70"
+                                            },
+                                            {
+                                                "variation": "Dvojni",
+                                                "price": "7.90"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "štručka s sezamom",
+                                            "ocvrto piščančje stegno",
+                                            "žafranova majoneza",
+                                            "sveža spinača",
+                                            "paradižnik",
+                                            "čedar sir"
+                                        ]
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Royal Burger",
+                                        "variations": [
+                                            {
+                                                "variation": "Enojni",
+                                                "price": "6.70"
+                                            },
+                                            {
+                                                "variation": "Dvojni",
+                                                "price": "7.90"
+                                            }
+                                        ],
+                                        "ingredients": [
+                                            "štručka s sezamom",
+                                            "goveja polpeta",
+                                            "rezine steaka",
+                                            "BBQ omaka",
+                                            "gorčica z viskijem",
+                                            "zelena solata",
+                                            "paradižnik"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "icon": "salad",
+                        "categories": [
+                            {
+                                "id": 5,
+                                "name": "Solatni krožniki",
+                                "description": "Fit and sweet",
+                                "icon": "salad",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Šopska solata",
+                                        "price": "4,20",
+                                        "ingredients": [
+                                            "paradižnik",
+                                            "čebula",
+                                            "kumare",
+                                            "riban beli sir"
+                                        ]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Pečene paprike",
+                                        "price": "2.20",
+                                        "description": "prelite s česnom",
+                                        "ingredients": [
+                                            "paprika",
+                                            "česen"
+                                        ]
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Cesarjeva solata",
+                                        "price": "6.90",
+                                        "ingredients": [
+                                            "češnjev paradižnik",
+                                            "rukola",
+                                            "pičanjčji file",
+                                            "slanina",
+                                            "jajce",
+                                            "parmezan"
+                                        ]
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Italiano",
+                                        "price": "6.50",
+                                        "description": "Italjani niso znani samo po picah in testeninah",
+                                        "ingredients": [
+                                            "češnjev paradižnik",
+                                            "zelena solata",
+                                            "pršut",
+                                            "rukola",
+                                            "mocarela",
+                                            "kruhove kocke",
+                                            "parmezan"
+                                        ]
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Ligenj",
+                                        "price": "2.90",
+                                        "description": "Morska hrana malo drugače",
+                                        "ingredients": [
+                                            "češnjev paradižnik",
+                                            "zelena solata",
+                                            "zelje",
+                                            "paradižnik",
+                                            "koruza",
+                                            "fižol",
+                                            "lignji z žara"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Cenik pijač",
+                "description": "Kej za spit'",
+                "type": "drink",
+                "content": 
+                [
+                    {
+                        "id": 6,
+                        "icon": "coffee",
+                        "categories": [
+                            {
+                                "id": 5,
+                                "name": "Topli napitki",
+                                "icon": "coffee",
+                                "description": "Hot and vroče",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Kava",
+                                        "price": "1,00"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Kava z mlekom",
+                                        "price": "1,20"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Kava s smetano",
+                                        "price": "1,30"
+                                    },
+                                    {
+                                        "id": 6,
+                                        "name": "Cappuccino",
+                                        "price": "1,30"
+                                    },
+                                    {
+                                        "id": 7,
+                                        "name": "Latte machiato",
+                                        "price": "1,70"
+                                    },
+                                    {
+                                        "id": 8,
+                                        "name": "Bela kava",
+                                        "price": "1,50"
+                                    },
+                                    {
+                                        "id": 9,
+                                        "name": "Brezkof. kava",
+                                        "price": "1,20"
+                                    },
+                                    {
+                                        "id": 10,
+                                        "name": "Brezkof. kava z mlekom",
+                                        "price": "1,40"
+                                    },
+                                    {
+                                        "id": 11,
+                                        "name": "Brezkof. kava s smetano",
+                                        "price": "1,40"
+                                    },
+                                    {
+                                        "id": 12,
+                                        "name": "Brezkof. cappuccino",
+                                        "price": "1,40"
+                                    },
+                                    {
+                                        "id": 13,
+                                        "name": "Brezkof. bela kava",
+                                        "price": "1,70"
+                                    },
+                                    {
+                                        "id": 14,
+                                        "name": "Čaj",
+                                        "price": "1,30"
+                                    },
+                                    {
+                                        "id": 15,
+                                        "name": "Pravi čaj",
+                                        "price": "1,40"
+                                    },
+                                    {
+                                        "id": 16,
+                                        "name": "Kakav",
+                                        "price": "1,60"
+                                    },
+                                    {
+                                        "id": 17,
+                                        "name": "Vroča čokolada",
+                                        "price": "2,20"
+                                    }
+                                ]
+                            }
+                        ],
+                        "extras": [
+                            {
+                                "id": 18,
+                                "name": "Med",
+                                "price": "0,50"
+                            },
+                            {
+                                "id": 19,
+                                "name": "Limona",
+                                "price": "0,30"
+                            },
+                            {
+                                "id": 20,
+                                "name": "Mleko",
+                                "variations": [
+                                    { "variation": "0.5 dl", "price": "0.30" },
+                                    { "variation": "1.0 dl", "price": "0.50" }
+                                ]
+                            },
+                            {
+                                "id": 22,
+                                "name": "Smetana mala",
+                                "variations": [
+                                    { "variation": "S", "price": "0.30" },
+                                    { "variation": "L", "price": "0.50" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "icon": "beer",
+                        "categories": [
+                            {
+                                "id": 6,
+                                "name": "Piva",
+                                "icon": "beer",
+                                "description": "Nekaj za odžejat",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Uni 0,5l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Malt 0,33l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Jabolčni tat",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Točeno pivo 0,2l",
+                                        "price": "1,80"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Točeno pivo 0,3l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 6,
+                                        "name": "Točeno pivo 0,5l",
+                                        "price": "2,20"
+                                    },
+                                    {
+                                        "id": 7,
+                                        "name": "Laško 0,5l",
+                                        "price": "2,20"
+                                    },
+                                    {
+                                        "id": 8,
+                                        "name": "Laško Weissbier 0,5l",
+                                        "price": "2,50"
+                                    },
+                                    {
+                                        "id": 9,
+                                        "name": "Union 0,33l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 10,
+                                        "name": "Union 0,5l",
+                                        "price": "2,20"
+                                    },
+                                    {
+                                        "id": 11,
+                                        "name": "Radler 0,5l",
+                                        "price": "2,10"
+                                    },
+                                    {
+                                        "id": 12,
+                                        "name": "Heineken 0,25l",
+                                        "price": "2,30"
+                                    },
+                                    {
+                                        "id": 13,
+                                        "name": "Heineken 0,33l",
+                                        "price": "2,60"
+                                    },
+                                    {
+                                        "id": 14,
+                                        "name": "Bernard pivo 0,5l",
+                                        "price": "2,50"
+                                    },
+                                    {
+                                        "id": 15,
+                                        "name": "Corona 0,33l",
+                                        "price": "2,90"
+                                    },
+                                    {
+                                        "id": 16,
+                                        "name": "Panache 0,25l",
+                                        "price": "1,80"
+                                    },
+                                    {
+                                        "id": 17,
+                                        "name": "Union nefiltrirano 0,5l",
+                                        "price": "2,50"
+                                    },
+                                    {
+                                        "id": 18,
+                                        "name": "Union pale ale",
+                                        "price": "2,50"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "icon": "red-wine",
+                        "categories": [
+                            {
+                                "id": 7,
+                                "icon": "red-wine",
+                                "name": "Rdeča vina",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Cviček 0,1l",
+                                        "price": "1,00"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Refošk 0,1l",
+                                        "price": "1,20"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Cabernet Sauvignon 0,1l",
+                                        "price": "2,60"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Modra frankinja 0,1l",
+                                        "price": "2,20"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Modri pinot 0,1l",
+                                        "price": "2,50"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "icon": "white-wine",
+                        "categories": [
+                            {
+                                "id": 8,
+                                "name": "Bela vina",
+                                "icon": "white-wine",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Jeruzalemčan 0,1l",
+                                        "price": "1,10"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Konjičan 0,1l",
+                                        "price": "1,10"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Sauvignon 0,1l",
+                                        "price": "2,40"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Traminec 0,1l",
+                                        "price": "2,70"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "icon": "champagne",
+                        "categories": [
+                            {
+                                "id": 9,
+                                "name": "Penine",
+                                "icon": "champagne",
+                                "description": "Pa nazdravimo",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Srebrna radgonska penina 0,75l",
+                                        "price": "17,00"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Srebrna radgonska penina 0,375l",
+                                        "price": "9,00"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Srebrna radgonska penina 0,2l",
+                                        "price": "6,00"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 11,
+                        "icon": "spirits",
+                        "categories": [
+                            {
+                                "id": 10,
+                                "icon": "spirits",
+                                "name": "Žgane pijače",
+                                "description": "Dajmo se malce pogreti",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Borovničevec 0,03l",
+                                        "price": "2,20"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Jagermeister 0,03l",
+                                        "price": "2,60"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Jack daniel’s 0,03l",
+                                        "price": "2,80"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "0,03l",
+                                        "price": "2,60",
+                                        "isSponsored": true,
+                                        "icon": "jameson"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Barrel 0,03l",
+                                        "price": "3,90",
+                                        "isSponsored": true,
+                                        "icon": "jameson"
+                                    },
+                                    {
+                                        "id": 6,
+                                        "name": "12Y 0,03l",
+                                        "isSponsored": true,
+                                        "icon": "chivas",
+                                        "price": "3,00"
+                                    },
+                                    {
+                                        "id": 7,
+                                        "name": "18Y 0,03l",
+                                        "isSponsored": true,
+                                        "icon": "chivas",
+                                        "price": "6,00"
+                                    },
+                                    {
+                                        "id": 8,
+                                        "name": "21Y 0,03l",
+                                        "isSponsored": true,
+                                        "icon": "chivas",
+                                        "price": "9,00"
+                                    },
+                                    {
+                                        "id": 9,
+                                        "name": "Carolans 0,03l",
+                                        "price": "2,20"
+                                    },
+                                    {
+                                        "id": 10,
+                                        "name": "0,03l",
+                                        "price": "2,20",
+                                        "isSponsored": true,
+                                        "icon": "malibu"
+                                    },
+                                    {
+                                        "id": 11,
+                                        "name": "Stock 0,03l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 12,
+                                        "name": "Beli rum 0,03l",
+                                        "price": "2,50"
+                                    },
+                                    {
+                                        "id": 13,
+                                        "name": "Martini 0,1l",
+                                        "price": "2,60"
+                                    },
+                                    {
+                                        "id": 14,
+                                        "name": "Rjavi rum 0,03l",
+                                        "price": "1,30"
+                                    },
+                                    {
+                                        "id": 15,
+                                        "name": "7Y 0,03l",
+                                        "price": "2,50",
+                                        "isSponsored": true,
+                                        "icon": "havana-club"
+                                    },
+                                    {
+                                        "id": 16,
+                                        "name": "0,03l",
+                                        "price": "1,30",
+                                        "isSponsored": true,
+                                        "icon": "beefeater"
+                                    },
+                                    {
+                                        "id": 17,
+                                        "name": "Cynar 0,03l",
+                                        "price": "2,10"
+                                    },
+                                    {
+                                        "id": 18,
+                                        "name": "Tequila 0,03l",
+                                        "price": "2,50"
+                                    },
+                                    {
+                                        "id": 19,
+                                        "name": "Travarica 0,03l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 20,
+                                        "name": " 0,03l",
+                                        "price": "2,40",
+                                        "isSponsored": true,
+                                        "icon": "absolut"
+                                    },
+                                    {
+                                        "id": 21,
+                                        "name": "Vodka črna 0,03l",
+                                        "price": "2,10"
+                                    },
+                                    {
+                                        "id": 22,
+                                        "name": "Viljamovka 0,03l",
+                                        "price": "2,70"
+                                    },
+                                    {
+                                        "id": 23,
+                                        "name": "Gin 0,03l",
+                                        "price": "2,40"
+                                    },
+                                    {
+                                        "id": 24,
+                                        "name": "Gin Monkey 0,03l",
+                                        "price": "7,00"
+                                    },
+                                    {
+                                        "id": 25,
+                                        "name": "Brinjevec 0,03l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 26,
+                                        "name": "Konjak courvoisier VSOP 0,03l",
+                                        "price": "4,50"
+                                    },
+                                    {
+                                        "id": 27,
+                                        "name": "Konjak courvoisier XO 0,03l",
+                                        "price": "12,50"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "icon": "non-alcoholic",
+                        "categories": [
+                            {
+                                "id": 11,
+                                "name": "Brezalkoholne pijače",
+                                "icon": "non-alcoholic",
+                                "description": "Brezalkoholno ampak zadovoljno",
+                                "items": [
+                                    {
+                                        "id": 1,
+                                        "name": "Breskov sok 0,1l",
+                                        "price": "1,00"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "name": "Pomarančni sok 0,1l",
+                                        "price": "1,00"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Jabolčni sok 0,1l",
+                                        "price": "1,00"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Fructal stek. 0,2l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 10,
+                                        "name": "Voda z okusom 0,5l",
+                                        "price": "1,80"
+                                    },
+                                    {
+                                        "id": 11,
+                                        "name": "Zala 0,5l",
+                                        "price": "1,60"
+                                    },
+                                    {
+                                        "id": 12,
+                                        "name": "Ledeni čaj 0,25l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 23,
+                                        "name": "Cedevita vrečka",
+                                        "price": "1,80"
+                                    },
+                                    {
+                                        "id": 24,
+                                        "name": "Limonada 0,3l",
+                                        "price": "2,10"
+                                    },
+                                    {
+                                        "id": 25,
+                                        "name": "Naravni pomarančni sok 0,1l",
+                                        "price": "1,50"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "icon": "soft-drink",
+                        "categories": [
+                            {
+                                "id": 12,
+                                "name": "Gazirane pijače",
+                                "icon": "soft-drink",
+                                "description": "Zabava z mehurčki",
+                                "items": [
+                                    {
+                                        "id": 5,
+                                        "name": "Coca cola 0,1l",
+                                        "price": "1,00"
+                                    },
+                                    {
+                                        "id": 13,
+                                        "name": "Coca cola 0,25l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 19,
+                                        "name": "Pepsi 0,25l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 14,
+                                        "name": "Cockta 0,25l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 6,
+                                        "name": "Fanta 0,1l",
+                                        "price": "1,00"
+                                    },
+                                    {
+                                        "id": 15,
+                                        "name": "Fanta 0,25l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 18,
+                                        "name": "Orangina 0,25l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 7,
+                                        "name": "Radenska 0,1l",
+                                        "price": "0,40"
+                                    },
+                                    {
+                                        "id": 8,
+                                        "name": "Radenska 0,25l",
+                                        "price": "1,60"
+                                    },
+                                    {
+                                        "id": 9,
+                                        "name": "Radenska 0,5l",
+                                        "price": "2,50"
+                                    },
+                                    {
+                                        "id": 16,
+                                        "name": "Sprite 0,25l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 17,
+                                        "name": "0,25l",
+                                        "price": "2,50",
+                                        "isSponsored": true,
+                                        "icon": "red-bull"
+                                    },
+                                    {
+                                        "id": 20,
+                                        "name": "Schweppes tangerina 0,25l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 21,
+                                        "name": "Schweppes tonic Water 0,25l",
+                                        "price": "2,00"
+                                    },
+                                    {
+                                        "id": 22,
+                                        "name": "Schweppes bitter lemon 0,25l",
+                                        "price": "1,80"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "dish": {
+        "id": 5,
+        "name": "Royal Burger",
+        "variations": [
+            {
+                "variation": "Enojni",
+                "price": "6.70"
+            },
+            {
+                "variation": "Dvojni",
+                "price": "7.90"
+            }
+        ],
+        "ingredients": [
+            "štručka s sezamom",
+            "goveja polpeta",
+            "rezine steaka",
+            "BBQ omaka",
+            "gorčica z viskijem",
+            "zelena solata",
+            "paradižnik"
+        ],
+        "description": "Slasten burger, za kronične mesojedce",
+        "gallery": [
+            { "image": "https://images.unsplash.com/photo-1550317138-10000687a72b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80" },
+            { "image": "https://timeincsecure-a.akamaihd.net/rtmp_uds/429048911/202004/2769/429048911_6152425885001_6152427053001-vs.jpg?pubId=429048911&videoId=6152427053001" }
+        ],
+        "allergens": [
+            { "id": "lactose", "label": "laktoza", "icon": "milk" },
+            { "id": "gluten", "label": "gluten", "icon": "gluten" },
+            { "id": "eggs", "label": "jajca", "icon": "eggs" }
+        ],
+        "videoSrc": "https://qrexx-test.s3.eu-central-1.amazonaws.com/The+Heavy+Hitting+Burger+-+Promo+Video.mp4"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "allergens": [
+        "celery",
+        "crustacean",
+        "eggs",
+        "fish",
+        "gluten",
+        "lupins",
+        "milk",
+        "mustard",
+        "nuts",
+        "peanuts",
+        "sesame",
+        "shellfish",
+        "soya",
+        "sulphite"
+    ],
+    "diets": [
+        "vegetarian",
+        "vegan",
+        "pescatarian"
+    ]
+}
